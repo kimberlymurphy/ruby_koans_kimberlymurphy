@@ -55,7 +55,7 @@ class AboutArrays < EdgeCase::Koan
     array = [:peanut, :butter, :and, :jelly]
 
     assert_equal [:peanut, :butter, :and], array[0..2]
-    assert_equal __, array[0...2]
+    assert_equal [:peanut, :butter], array[0...2]
     assert_equal __, array[2..-1]
   end
 
