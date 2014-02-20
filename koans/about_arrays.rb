@@ -29,7 +29,7 @@ class AboutArrays < EdgeCase::Koan
     assert_equal :jelly, array[3]
     assert_equal :jelly, array.last
     assert_equal :jelly, array[-1]
-    assert_equal __, array[-3]
+    assert_equal :butter, array[-3]
   end
 
   def test_slicing_arrays
